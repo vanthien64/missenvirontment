@@ -1,0 +1,155 @@
+.login
+{
+margin: 0px;
+background-image: url(../../assets/image/background.png);
+height: 950px;
+width:100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: relative;
+}
+.layer
+{
+position: fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color: black;
+opacity: 0.8;
+}
+.login-content
+{
+background-color: white;
+width: 50%;
+height: 60%;
+position: fixed;
+top:19%;
+left:25%;
+border-radius: 20px;
+box-shadow: 0px 0px 15px 5px white;
+}
+.login-content_form
+{
+width: 50%;
+height: 95%;
+}
+.form
+{
+width: 95%;
+height: 90%;
+position: relative;
+}
+.form-header
+{
+position: absolute;
+top:30%;
+left:40%;
+color:rgb(119, 9, 9);
+font-size: 26px;
+font-weight: 600;
+
+}
+.form-username
+{
+position: absolute;
+width: 80%;
+height: 6%;
+top:45%;
+left:12%;
+border-radius: 8px;
+border: 1px solid rgb(119, 9, 9);
+}
+.form-username:focus
+{
+outline:rgb(119, 9, 9) auto 2px;
+}
+.form-password
+{
+position: absolute;
+width: 80%;
+height: 6%;
+top:60%;
+left:12%;
+border-radius: 8px;
+border: 1px solid rgb(119, 9, 9);
+}
+.form-password:focus
+{
+outline:rgb(119, 9, 9) auto 2px;
+}
+.form-button
+{
+position: absolute;
+width: 30%;
+height: 8.5%;
+top:73%;
+left:38%;
+border: none;   
+background-color: rgb(119, 9, 9);
+color:white;
+font-size: 16px;
+font-weight: 600;
+border-radius: 4px;
+box-shadow: 0px 0px 5px 1px rgb(117, 117, 117);
+cursor: pointer;
+}
+.form-button:hover
+{
+box-shadow: 0px 0px 7px 2px rgb(31, 31, 31);
+}
+.fa-google
+{
+font-size: 26px;
+color:green;
+position: absolute;
+top:95%;
+left:10%;
+}
+.fa-facebook
+{
+font-size: 26px;
+color:blue;
+position: absolute;
+top:95%;
+left:55%;
+}
+.form-icon_google
+{
+ margin-left: 2%;
+ position: absolute;
+ top:96%;
+ font-size: 16px;
+ left:15%;
+}
+.form-icon_facebook
+{
+ margin-left: 2%;
+ position: absolute;
+ top:96%;
+ font-size: 16px;
+ left:60%;
+}
+.line{
+width:0.2%;
+height: 90%;
+background-color: rgb(119, 9, 9);
+position: absolute;
+top:5%;
+right: 50%;
+}
+.login-content_img
+{
+width: 50%;
+height: 100%;
+}
+.login-content_imgmain
+{
+position: absolute;
+width: 45%;
+height: 85%;
+border-radius: 20px;
+top:7%;
+right: 2.5%;
+box-shadow: 0px 0px 10px 5px rgb(112, 111, 111);
+}
