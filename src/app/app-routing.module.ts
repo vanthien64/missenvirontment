@@ -5,7 +5,7 @@ import { Login } from './login/login.component';
 
 const routes: Routes = [
   { path:"login",component:Login},
-  { path:"hompage",component:Homepage}
+  { path:"homepage",component:Homepage}
 ];
 
 @NgModule({
