@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Cadidate } from './candidate/cadidate.component';
 import { Homepage } from './homepage/homepage.component';
 import { Login } from './login/login.component';
 
@@ -10,7 +11,8 @@ import { Login } from './login/login.component';
   declarations: [
     AppComponent,
     Login,
-    Homepage
+    Homepage,
+    Cadidate
   ],
   imports: [
     BrowserModule,
