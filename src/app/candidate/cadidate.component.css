@@ -96,27 +96,277 @@ top:8%;
 position: absolute;
 top:83%;
 width:100%;
-height: 1060px;
+height: 1860px;
 background-color:#f3efef;
 }
-.pinklogo
+.cadidate-content_header
 {
-top:7%;
-position: absolute;
-left:-6%;
-width:40%;
-height: 90%; 
-opacity: 0.4;  
+width:100%;
+height: 10%;
+margin-top: 2%;
+position: relative;
+}
+.engname
+{
+ font-size: 320%;
+ font-weight: 600;
+ color:#720505;
+ text-align: center;
+ position: absolute;
+ left: 38%;
+ text-shadow: 3px 2px 3px #1d0101
+}
+.vietname
+{
+ font-size: 370%;
+ font-weight: 600;
+ color:#720505;
+ text-align: center;
+ top:30%;
+ left: 25%;
+ position: absolute;
+ text-shadow: 3px 2px 3px #1d0101
+}
+.backgroundright
+{
+    position: absolute;
+    top:-35%;
+    right:12%;
+    width:20%;
+    height: 300px;
+    opacity: 0.5;
+
+}
+.backgroundleft
+{
+    position: absolute;
+    left:15%;
+    top:8%;
+    width:30%;
+    height: 300px
 }
 .cadidate-content_main
 {
-padding-top: 7%;   
-padding-right: 5%;   
+display: flex; 
+flex-wrap: wrap;
+height: 50%;
+padding-right: 5%; 
 }
 .content-main_candidate
 {
-width:20%;
-margin-top: 5%;
+position: relative;   
+margin-top:4% ;
 margin-left: 5%;
-height: 50%;    
+width:20%;
+height:39% ;
+background-color: #1b0101;
+box-shadow: 0px 0px 10px 5px #720505;
+border-radius: 12px;
 }
+.content-main_imgcandidate
+{
+position: absolute;
+top:5%;
+left:4.5%;
+width:100%;
+height: 100%; 
+border-radius: 12px;   
+}
+.lableleft
+{
+position: absolute;
+top:80%;
+left:2%;
+width:40%;
+height: 8%;
+border-top-left-radius:8px ;
+border-bottom-right-radius:8px ;
+background-color: #f7b4b4;
+opacity: 0.8;
+}
+.lableleft-name
+{
+position: absolute;
+top:86%;
+left:3.5%;
+display: block;
+color: #000000;
+font-size: 14px;
+font-weight: 600;
+opacity: 1;
+z-index: 3;
+}
+.addlableleft
+{
+position: absolute;
+top:88%;
+left:2%;
+border-top: 12px solid rgb(224, 111, 111);
+border-left: 10px solid transparent;
+opacity: 0.8;
+}
+.blackground
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.9;
+    z-index: 4;
+    display: none;
+}
+.cadidate-content_information
+{
+    width:60%;
+    height: 60%;
+    background-color:#f5dede;
+    display: none;
+    z-index: 5;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #720505;
+}
+.add
+{
+    display: block;
+}
+.candidateinfor1
+{
+    width:45%;
+    height:55%;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #724242;
+    position: absolute;
+    z-index: 2;
+}
+.header
+{
+    position: absolute;
+    width:100%;
+    height: 20%;
+    background-color: #1b0101;
+    top:0px;
+    border-top-left-radius:16px;
+    border-top-right-radius:16px;
+}
+.introduce
+{
+width: 85%;
+position: absolute;
+}
+.introduce-header
+{
+    font-size: 30px;
+    margin-top: 39%;
+    margin-left: 7%;  
+    color:#582020;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #1d0101;
+
+}
+.introduce-header_main
+{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 7%;  
+    margin-top: -2%;
+    text-align: justify;
+}
+.infor
+{
+    width:20%;
+}
+.infor-header
+{
+    width:100%;
+    position: absolute;
+    left: 55%;
+    top:3%;
+}
+.infor-header_name
+{
+    font-size: 26px;
+    font-weight: 600;
+    color:white
+
+}
+.infor-header_code
+{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    top:62%;
+    left: 3%;
+    position: absolute;
+}
+.infor-header_age
+{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    top:62%;
+    left:13%;
+    position: absolute;
+}
+.infor-main
+{
+    width:30%;
+    position: absolute;
+    top:24%;
+    left:55%
+}
+.infor-main_header
+{
+    font-size: 24px;
+    top:3%;
+    left: 3%; 
+    color:#582020;
+    text-shadow: 1px 1px 3px #1d0101; 
+    position: absolute; 
+}
+.infor-main_weight
+{
+    font-size: 18px;
+    color:black;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.infor-main_height
+{
+    font-size: 18px;
+    color:black;
+    margin-left: 5%;
+}
+.infor-main_body
+{
+    font-size: 18px;
+    color:black;
+    margin-left: 5%;
+}
+.infor-button
+{
+    width:10%;
+    height:6%;
+    border: none;
+    background-color: #f3caca;
+    position: absolute;
+    top:60%;
+    left:65%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 3px #af6060;
+    cursor: pointer;
+}
+.infor-button:hover
+{
+    box-shadow: 0px 0px 5px 3px #6d2828;
+    color:white;
+    font-weight: 600;
+    background-color: #f57d7d;
+}
+
