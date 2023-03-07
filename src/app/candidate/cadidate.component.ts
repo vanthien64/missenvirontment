@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./cadidate.component.css']
 })
 export class Cadidate {
-  title = 'missvote';
+  add()
+  {
+    document.querySelector('.blackground')?.classList.add("add")
+    document.querySelector('.cadidate-content_information')?.classList.add("add")
+  }
+  remove()
+  {
+    document.querySelector('.blackground')?.classList.remove("add");
+    document.querySelector('.cadidate-content_information')?.classList.remove("add"); 
+  }
 }
