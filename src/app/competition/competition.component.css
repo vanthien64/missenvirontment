@@ -1,0 +1,255 @@
+body
+{
+margin:0px;
+}
+.homepage
+{
+width:100%;
+height: 950px;
+}
+.homepage-header
+{
+position: fixed;
+width:100%;
+height: 8%;
+top:0;
+right:0;
+left:0;
+bottom:0;
+background-color: #1b0101;
+z-index: 2;
+}
+.homepage-header_logomain
+{
+position: fixed;
+width:10%;
+height: 15%;
+top:-3%;
+left:7%;
+}
+.homepage-header_logocontent
+{
+position: fixed;
+color:white;
+top:1.5%;
+left:15%;
+opacity: 0.8;
+}
+.homepage-header_siderbar
+{
+position: fixed;
+color:white;
+display: flex;
+justify-content: space-around;
+left:55%;
+top:1.5%;
+width:42%;
+}
+.homepage-header_siderbarmain
+{
+color:white;
+opacity: 0.7;
+font-size: 18px;
+position: relative;
+cursor: pointer;
+}
+.homepage-header_siderbarmain_line
+{
+width:100%;
+height: 15%;
+border-radius: 2px;
+background-color: white;
+position: absolute;
+top:190%;
+display: none;
+}
+.homepage-header_siderbarmain:hover
+{
+opacity: 1;
+}
+.homepage-header_siderbarmain:hover .homepage-header_siderbarmain_line{
+display: block;
+background-color:#720505;
+}
+.render-main
+{
+opacity: 1;
+}
+.render-line
+{
+display: block;
+background-color:#720505;
+}
+.homepage-middel
+{
+width:100%;
+height: 100%;
+background-image: url(../../assets/image/backgroundqueen.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+top:8%;
+}
+.competition-content
+{
+position: absolute;
+top:83%;
+width:100%;
+height: 2060px;
+background-color:#f3efef;
+}
+.cadidate-content_header
+{
+width:100%;
+height: 10%;
+margin-top: 2%;
+position: relative;
+}
+.engname
+{
+ font-size: 320%;
+ font-weight: 600;
+ color:#720505;
+ text-align: center;
+ position: absolute;
+ left: 38%;
+ text-shadow: 3px 2px 3px #1d0101
+}
+.vietname
+{
+ font-size: 370%;
+ font-weight: 600;
+ color:#720505;
+ text-align: center;
+ top:30%;
+ left: 25%;
+ position: absolute;
+ text-shadow: 3px 2px 3px #1d0101
+}
+.backgroundright
+{
+    position: absolute;
+    top:-35%;
+    right:12%;
+    width:20%;
+    height: 300px;
+    opacity: 0.5;
+}
+.competitionbg
+{
+    position: absolute;
+    top:15%;
+}
+.cadidate-content_main
+{
+    width:65%;
+    height: 72%;
+    margin-left: 18%;
+    margin-top: 2%;
+    border-top: 5px solid #5f0404;
+    border-left: 2px solid rgb(121, 121, 121);
+    border-bottom: 5px solid #5f0404;;
+    border-right: 2px solid rgb(121, 121, 121);
+}
+.cadidate-content_main_header
+{
+ width:90%;
+ margin-left: 7%;
+}
+.cadidate-content_main_header_content
+{
+ color:#7c2424;
+ font-size: 26px;
+ font-weight: 600;
+ text-shadow: 1.5px 1.5px 2px #1b0101;
+ text-align: center;
+ margin-bottom: 5%;
+}
+.header-content_main
+{
+    width:80%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 3%;
+    font-size: 18px;
+}
+.sold
+{
+    font-weight: 600;
+}
+.competitionlogo
+{
+margin-top: 1%;
+margin-left: 16%;
+width:60%;
+opacity: 0.6;
+}
+.candidate-footer
+{
+    width:100%;
+    height:14%;
+    background-color: #1b0101;;
+    position: absolute;
+    top:282%;
+    opacity: 0.9;
+}
+.backgrounfoter
+{
+    width:25%;
+    margin-left: 10%;
+}
+.candidate-footer_main
+{
+    position: absolute;
+    top:24%;
+    left:40%;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.candidate-footer_detail
+{
+    position: absolute;
+    top:55%;
+    left:42%;
+    color:white;
+    font-size: 12px;
+}
+.candidate-footer_line
+{
+    position: absolute;
+    width: 0.05%;
+    height: 40%;
+    top:24%;
+    left:69%;
+    background-color: white;
+    font-size: 16px;
+}
+.fa-envelope
+{
+    position: absolute;
+    top:26%;
+    left:70%;
+    color: white;
+    font-size: 16px;
+}
+.fa-phone
+{
+    position: absolute;
+    top:45%;
+    left: 70%;
+    color: white;
+    font-size: 16px;
+}
+.fa-facebook
+{
+    position: absolute;
+    top:65%;
+    left:70%;
+    color: white;
+    font-size: 16px;
+}
+.detail-infor
+{
+    margin-left:10px;
+}
